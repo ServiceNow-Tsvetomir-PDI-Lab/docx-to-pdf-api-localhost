@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ```markdown
 # 📝 DOCX to PDF Converter API
 
@@ -209,7 +208,3 @@ http://127.0.0.1:5000/docs
 ```
 
 You’ll find the Swagger-only endpoint available there with file upload support and a clear description about how to download the PDF.
-=======
-# docx-to-pdf-api-localhost
-localhost
->>>>>>> origin/main
