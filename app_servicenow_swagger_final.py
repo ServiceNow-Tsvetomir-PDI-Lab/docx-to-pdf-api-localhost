@@ -25,7 +25,7 @@ swagger_config = {
 
 swagger_template = {
     "info": {
-        "title": "DOCX to PDF Converter API1",
+        "title": "DOCX to PDF Converter API",
         "description": """1Use this endpoint to upload a DOCX file and receive a downloadable PDF link.
 
 ⚠️ Copy the download_url from the response and paste it in a new browser tab to download the file.""",
