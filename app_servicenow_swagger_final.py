@@ -26,15 +26,10 @@ swagger_config = {
 swagger_template = {
     "info": {
         "title": "DOCX to PDF Converter API2",
-        "description": """1Use this endpoint to upload a DOCX file and receive a downloadable PDF link.
+        "description": """Use this endpoint to upload a DOCX file and receive a downloadable PDF link.
 
-⚠️ Copy the download_url from the response and paste it in a new browser tab to download the file.""",
-        "version": "1.5.0",
-        "contact": {
-            "name": "Your Name",
-            "email": "your.email@example.com",
-            "url": "https://yourcompany.com"
-        }
+Copy the download_url from the response and paste it in a new browser tab to download the file.""",
+        "version": "1.5.0"
     },
     "host": "127.0.0.1:5000",
     "basePath": "/",
@@ -96,7 +91,7 @@ def convert_docx_to_pdf_servicenow():
     ],
     'responses': {
         200: {
-            'description': 'Returns a download URL as JSON. ⚠️ Copy the URL and paste it into a new browser tab to download the PDF.',
+            'description': 'Returns a download URL as JSON. Copy the URL and paste it into a new browser tab to download the PDF.',
             'examples': {
                 'application/json': {
                     "message": "PDF generated successfully",
